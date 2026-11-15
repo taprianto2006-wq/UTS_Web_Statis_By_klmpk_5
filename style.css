@@ -1,0 +1,26 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial, sans-serif;background:#f4f8f7;color:#24343a;line-height:1.6}
+header{background:#087e8b;color:white;padding:26px 7%;text-align:center}
+header h1{margin:0 0 6px}
+nav{background:#075b66;display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:12px}
+nav a{color:white;text-decoration:none;padding:9px 16px;border-radius:6px;font-weight:bold}
+nav a:hover,nav a.aktif{background:#f4a261;color:#17343a}
+main{max-width:1050px;margin:28px auto;padding:0 18px}
+section,.panel{background:white;padding:22px;margin-bottom:20px;border-radius:12px;box-shadow:0 3px 12px #17343a12}
+h2{color:#087e8b;margin-top:0}
+.hero{background:linear-gradient(120deg,#d9f0eb,#fff1d9);padding:38px 24px;border-radius:14px;text-align:center}
+.hero p{max-width:720px;margin:10px auto}
+.tombol{display:inline-block;background:#087e8b;color:white;padding:10px 18px;border-radius:7px;text-decoration:none;margin:6px 4px}
+.tombol:hover{background:#075b66}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #cbd8d8;padding:11px;text-align:left}
+th{background:#d9f0eb}
+img.responsif{max-width:100%;height:auto;border-radius:10px}
+.peta{width:100%;height:auto;border:1px solid #b8cccc;border-radius:10px;display:block}
+.keterangan{font-size:.92rem;color:#52666b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+input,select,textarea{width:100%;padding:10px;margin:6px 0 14px;border:1px solid #aabbbb;border-radius:6px;font:inherit}
+button{background:#087e8b;color:white;border:0;padding:11px 20px;border-radius:7px;font:inherit;cursor:pointer}
+button:hover{background:#075b66}
+footer{text-align:center;background:#075b66;color:white;padding:18px;margin-top:35px}
+@media(max-width:600px){header{padding:22px 14px}nav a{padding:8px 10px}}

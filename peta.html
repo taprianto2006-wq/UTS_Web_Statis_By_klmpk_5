@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Peta Wisata | Jelajah Nusantara</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Jelajah Nusantara</h1>
+    <p>Temukan Keindahan Alam dan Budaya Indonesia</p>
+</header>
+
+<!-- NAVIGASI -->
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="peta.html" class="aktif">Peta Wisata</a>
+    <a href="destinasi.html">Destinasi</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+<!-- KONTEN UTAMA -->
+<main>
+
+    <section>
+
+        <h2>Peta Wisata Yogyakarta</h2>
+
+        <p>
+            Selamat datang di peta wisata Yogyakarta.
+            Klik salah satu gambar destinasi wisata
+            untuk melihat informasi lebih lengkap.
+        </p>
+
+        <!-- GAMBAR PETA WISATA -->
+        <img
+            class="peta"
+            src="img/peta-wisata.jpg"
+            alt="Peta Wisata Yogyakarta"
+            usemap="#petawisata"
+            width="900"
+            height="520"
+        >
+
+        <!-- IMAGE MAP -->
+        <map name="petawisata">
+
+            <!-- GUNUNG MERAPI -->
+            <area
+                shape="poly"
+                coords="486,279,431,257,382,231,344,197,365,162,390,149,400,127,420,125,441,114,481,92,492,94,499,100,509,101,537,96,592,127,613,132,650,146,654,115,682,115,718,114,732,117,726,124,722,135,698,135,673,132,664,132,665,150,676,153,690,155,706,159,721,165,758,170,805,180,796,190,735,198,716,207,698,223,679,237,583,255,530,273"
+                href="destinasi.html#merapi"
+                alt="Gunung Merapi"
+                title="Klik untuk informasi Gunung Merapi"
+                
+            >
+            <area
+              shape="rect"
+              coords="585,45,770,145"
+              href="destinasi.html#merapi"
+              alt="Klik informasi Gunung Merapi"
+              title="Klik di sini untuk melihat Gunung Merapi"
+>
+
+            <!-- CANDI PRAMBANAN -->
+            <area
+                shape="poly"
+                coords="20,190,100,180,180,190,260,185,350,205,440,235,500,310,510,430,450,455,300,450,150,450,20,430"
+                href="destinasi.html#prambanan"
+                alt="Candi Prambanan"
+                title="Klik untuk informasi Candi Prambanan"
+            >
+
+            <!-- PANTAI PARANGTRITIS -->
+            <area
+                shape="poly"
+                coords="520,290,620,285,720,290,820,300,895,280,895,470,800,475,700,465,600,465,520,450"
+                href="destinasi.html#parangtritis"
+                alt="Pantai Parangtritis"
+                title="Klik untuk informasi Pantai Parangtritis"
+            >
+
+        </map>
+
+        <p class="keterangan">
+            Petunjuk: Klik bagian Gunung Merapi,
+            Candi Prambanan, atau Pantai Parangtritis
+            pada gambar untuk membuka informasi wisata.
+        </p>
+
+    </section>
+
+    <!-- PETUNJUK PENGGUNAAN -->
+    <section>
+
+        <h2>Petunjuk Penggunaan Peta</h2>
+
+        <ol>
+            <li>Buka halaman Peta Wisata.</li>
+            <li>Pilih gambar tempat wisata yang ingin dilihat.</li>
+            <li>Klik area gambar tersebut.</li>
+            <li>Browser akan membuka informasi destinasi yang dipilih.</li>
+        </ol>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        By Kelompok 5 | 2026 | Jelajah Nusantara
+        - Website Pariwisata
+    </p>
+</footer>
+
+</body>
+</html>
